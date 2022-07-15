@@ -32,7 +32,10 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Assets 📷
 Actual preview of ---. 
-![Preview of Flea Box Folio.]()
+![Preview of What's My Password]()
+
+## Link to the deployed website 💻
+URL: 
 
 ## Problems encountered 🤯
 * geting 
@@ -40,10 +43,12 @@ Actual preview of ---.
 ## Changes made to the code 𝌡
 * the 
 
-## Link to the deployed website 💻
-
 ## Credits 💃🏻
 * Starter code (HTML and CSS has been provided by Birmingham University Boot Camp. 
 
+* The image for the Starter code (JavaScript) has been begun by Birmingham University.
+![Starter code for JavaScript as provided by University of Birmingham.](./password-assets/starter-code.jpg)
+* Further JavaScript code has been developed by Adela Kobic. 
+
 ## Licence 🪪
-* 
+* MIT Licence 
