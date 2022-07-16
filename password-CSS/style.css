@@ -11,7 +11,7 @@ body,
   margin: 0;
   padding: 0;
 }
-
+/* Changed background colour to see it better */
 body {
   font-family: sans-serif;
   background-color: #b4edcc;
