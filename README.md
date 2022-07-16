@@ -4,14 +4,17 @@
 Module 3 tasks us with creating a password generator. This generatoe must be able to create a password with a minumum of 8 and maximum of 128 characters. The process must include prompts which determine lower case and upper case letters and special characters when generating the new password. 
 
 ## Motivation 💪🏻
-This project was created to use JavaScript 
+This project was created to use JavaScript language in order to create aninteractive 
 
 ## Build status 🏗
-* The starter code has been built by 
+* The starter code has been built by Birmingham University.
+* The JavaSCript starter code for this project started by Birmigham University presented like this: 
+![The JavaSCript starter code for this project started by Birmigham University presented like this:](./password-assets/starter-code.jpg)
 
 ## Code style 🔐
 * Standard HTML and CSS has been used for this project. 
 The language for the website is written in US English. (USA English)
+* Standard JavaScript has been used for this beginner project.
 
 ## Acceptance Criteria ✅
 GIVEN I need a new, secure password
@@ -38,10 +41,16 @@ Actual preview of ---.
 URL: 
 
 ## Problems encountered 🤯
-* geting 
+* Creating the window prompts - SOLVED 16/7/22
+* Setting the password function length - prompt box drops out and 'number is not defined on line 42 in JScode.
 
 ## Changes made to the code 𝌡
-* the 
+* Created the functions for the UPPERCASE and lowercase letters, numbers and special characters
+* Created the return strings to generate random letters, numbers and characters
+* Created the window prompts for the messages to prompt user through the process
+* Changed the background colour to personalise the project a little
+* Title of the page changed to  ' "What's my password?" Generator'
+
 
 ## Credits 💃🏻
 * Starter code (HTML and CSS has been provided by Birmingham University Boot Camp. 
@@ -51,4 +60,4 @@ URL:
 * Further JavaScript code has been developed by Adela Kobic. 
 
 ## Licence 🪪
-* MIT Licence 
+* MIT Licence as provided through GitHud 
