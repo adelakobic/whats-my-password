@@ -3,22 +3,8 @@
 var generateBtn = document.querySelector("#generate");
 
 
-//window prompt opening message
-  //var userPrompt = window.prompt("Create a new password?", "Click 'OK' for YES, click 'Cancel' for NO. ");
-  //var userText = function () {
-  //Text ["Yes", "y", "Y"]
-  //}
-  //if (userText === "Yes", "y", "Y") {
-
-
-  //If user presses Cancel box dissapears and no password generated
-  //else if (!userText) { return;}
-
-  //If user types YES and clicks 'OK' it should lead to password character prompts
-  //if (userPrompt.userText) {
-    generatePassword()
-  
-
+//window prompt opening message 
+//If user types YES and clicks 'OK' it should lead to password character prompts
 
   function generatePassword(){
   console.log("Welcome to 'What's my password?'");
@@ -30,13 +16,8 @@ var generateBtn = document.querySelector("#generate");
   var passwordLength = window.prompt("Set password length between 8 and 128 characters.", "Type in number");
   
   //     a password length between 8 and 128 characters
-  //function passwordLength(){
-    //min: 8
-    //max: 128
-  
-  //is the mesaage a text or alert?
   if (passwordLength < 8) {
-    
+  
     alert("Password length must be 8 characters in length MINIMUM.");
   } 
   //change to alerts
@@ -44,44 +25,64 @@ var generateBtn = document.querySelector("#generate");
   else if (passwordLength > 128) {
     alert("Password length must be 128 characters MAX or less.");
   } 
-  //put in a loop to go back to initial prompt
+
+  //put in a loop to go back to initial prompt **Loop is not working
+  const actual = ['1', '2', '3', '4', '5'];
+  for (let i = 0; actual.length; i++) {
+    console.log('Loop');
+    if (i === 5) break;
+
+  }
 
 
+  //     b uppercase (26 letters), lowercase, numbers (10), special characters - use ASCII chart 
+  // uppercase to generate in password 
   var passwordUpper = window.confirm("Include UPPERCASE letters? Click 'OK' for YES, click 'Cancel' for NO. ");
-  //window.alert("Include Uppercase letters?", "Click OK");
-  // change vars and functions 
-  // add in pseudo code for all
-  // window.confirm
-
-  //     b uppercase (26 letters), lowercase, numbers (10), special characters
   function passwordUpperFunc(){
     return String.fromCharCode(Math.floor(Math.random)* 26 + 65);
   }
   if (passwordUpper) {
     console.log("Password will contain UPPERCASE letters.");
   } 
-
   else {
-  console.log()
-
+  console.log("Uppercase NONE")
   }
-  console.log(passwordUpperFunc());
   
-  
-  var passwordLower = window.prompt("Include lowercase letters? Click 'OK' for YES, click 'Cancel' for NO.");
+  // lowercase - to generate in password
+  var passwordLower = window.confirm("Password will contain lowercase letter.");
   function passwordLowerFunc(){
     return String.fromCharCode(Math.floor(Math.random) * 26 + 97);
   }
+  if (passwordLower) {
+    console.log("Password will contain lowercase letters.");
+  } 
+  else {
+  console.log("Lowercase NONE")
+  }
 
-  var userPrompt = window.prompt("Include numbers?", "Click 'OK' for YES, click 'Cancel' for NO. ");
-  function passwordNumbers(){
+  // numbers - to generate in password
+  var passwordNumbers = window.confirm("Password will contain numbers.");
+  function passwordNumbersFunc(){
     return String.fromCharCode(Math.floor(Math.random) * 10 + 48);
   }
+  if (passwordNumbers) {
+    console.log("Password will contain numbers.");
+  } 
+  else {
+  console.log("Numbers NONE")
+  }
   
-  var userPrompt = window.prompt("Click on the RED Generate Password button.")
-  function passwordSpecial(){
+  // special chracters 
+  var passwordSpecial = window.confirm("Password will contain special character.")
+  function passwordSpecialFunc(){
     const symbols = '!@£#$%^&*(){}[]=+/,.';
     return symbols[Math.floor(Math.random() * symbols.length)];
+  }
+  if (passwordSpecial) {
+    console.log("Password will contain special characters.");
+  } 
+  else {
+  console.log("Special Characters NONE")
   }
 
   // 2 validate the input (from 1)

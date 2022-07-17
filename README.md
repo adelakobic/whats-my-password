@@ -43,13 +43,15 @@ URL:
 ## Problems encountered 🤯
 * Creating the window prompts - SOLVED 16/7/22
 * Setting the password function length - prompt box drops out and 'number is not defined on line 42 in JScode.
+* Loop on lines 30-33 is not working as it should
 
 ## Changes made to the code 𝌡
 * Created the functions for the UPPERCASE and lowercase letters, numbers and special characters
 * Created the return strings to generate random letters, numbers and characters
-* Created the window prompts for the messages to prompt user through the process
+* Created the window confirm for the messages to prompt user through the process
 * Changed the background colour to personalise the project a little
 * Title of the page changed to  ' "What's my password?" Generator'
+* rewitten the code to be clearer in pseudo code
 
 
 ## Credits 💃🏻
