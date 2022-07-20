@@ -35,15 +35,16 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Assets 📷
 Actual preview of ---. 
-![Preview of What's My Password]()
+![Preview of What's My Password](./password-assets/Pass-generator.png)
 
 ## Link to the deployed website 💻
-URL: 
+URL: https://adelakobic.github.io/whats-my-password/ 
 
 ## Problems encountered 🤯
 * Creating the window prompts - SOLVED 16/7/22
 * Setting the password function length - prompt box drops out and 'number is not defined on line 42 in JScode.
 * Loop on lines 30-33 is not working as it should
+* getting the code to generate a password - NOT solved as yet. 
 
 ## Changes made to the code 𝌡
 * Created the functions for the UPPERCASE and lowercase letters, numbers and special characters
